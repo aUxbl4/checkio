@@ -1,3 +1,8 @@
+# pawn-brotherhood
+# https://py.checkio.org/en/mission/pawn-brotherhood/
+
+
+
 def safe_pawns(x):
     c = 'abcdefghj'
     x = list(x)
@@ -8,7 +13,6 @@ def safe_pawns(x):
         if (c[c.index(x[i][0])+1] + y) in x or (c[c.index(x[i][0])-1] + y) in x:
             z += 1
     return z
-
 
 if __name__ == '__main__':
     # These "asserts" using only for self-checking and not necessary for auto-testing
